@@ -20,7 +20,7 @@
 
 ## 常用插件和使用方法
 
-###1. Emmet
+### 1. Emmet
 在package control 中输入emmet，选中第一个Emmet,Emmet前身是大名鼎鼎的Zen Coding,主要使用到它的两大功能：
 
 * 自定义代码片段
@@ -115,7 +115,7 @@
 	最后，如果你安装Emmet不成功，可能是没有翻墙，请戳 -> [一枝红杏 vpn](http://client.yizhihongxing.hk/aff.php?aff=1527)
 
 
-###2. SideBarEnhancements
+### 2. SideBarEnhancements
 >	SideBarEnhancements 插件大大增强了侧边栏的功能，比如可以移动文件、重命名文件、删除文件、备份文件、在磁盘中打开文件目录、双栏编辑文件、在浏览器中预览文件等，功能很简单只需要一个个尝试下就好了，是一个好用而简单的插件。
 
 >其中在浏览器中打开的功能，可以代替view in browser这个插件，你可以指定它打开网页的浏览器，这样就不会担心360浏览器等浏览器捣乱了。(就算默认浏览器是360，只要你在sublime中指定了浏览器，会用指定的浏览器打开)。
@@ -131,7 +131,7 @@ perferences -> Package Settings -> Side Bar -> setting-user
 ```
 
 
-###3. HTML-CSS-JS Prettify
+### 3. HTML-CSS-JS Prettify
 	
 > HTML-CSS-JS Prettify 是一款格式化代码的工具，安装好后，只需要command + shift + h 快捷键就可以格式化代码，或者 右键 -> HTML-CSS-JS Prettify -> prettify code 也可以格式化代码。
 
@@ -144,7 +144,7 @@ perferences -> Package Settings -> Side Bar -> setting-user
 
 
 
-###4. Doc​Blockr
+### 4. Doc​Blockr
 > DocBlockr 可以跟js方法加上注释，虽然是不需要跟每个js方法加上注释的，但是在一些重要的、难懂的方法上加上注释是很必要的。
 > 
 > 安装好DocBlockr 在js方法前输入/**然后按下tab键就会生成注释的格式，如果你需要在注释里加上作者和日期等信息，就需要去配置下。下面配置加上了作者和日期。
@@ -161,7 +161,7 @@ perferences -> Package Settings -> Side Bar -> setting-user
  }
  ```
 
-###5. SublimeLinter
+### 5. SublimeLinter
 
 > SublimeLinter 是一个语法检查器插件，安装它以后就可以很容易就提示出一些低级错误
 > 
@@ -172,7 +172,7 @@ perferences -> Package Settings -> Side Bar -> setting-user
 >在命令行输入npm install -g csslint 安装csslint，输入npm install -g jshint 安装jshint，到最后这个css和js语法检查插件就装好了。如果你需要配置sublimelinter只需要右键=>sublimelinter就可以设置了，当然如果你想通过配置文件更详细的配置也是可以的。
 
 
-###6. LiveReload
+### 6. LiveReload
 
 > 修改过代码后，网页会自动刷新，这是会让很多人都心动的功能，而LiveReload就实现了这个功能。
 > 
@@ -198,7 +198,7 @@ perferences -> Package Settings -> Side Bar -> setting-user
 > 
 > 当然，访问chrome应用商店需要翻墙，请戳 -> [一枝红杏 vpn](http://client.yizhihongxing.hk/aff.php?aff=1527)
 
-###7. SublimeTmpl
+### 7. SublimeTmpl
 > 通过SublimeTmpl可以新建一个文件的时候自定义模板，安装好后在file栏目中会有new file (SublimeTmpl)这一项，选择要新建的文件就可以新建自定义模板的文件。
 > 
 > > 通过配置这个文件可以修改new file(sublimeTpl)的子目录列表:
@@ -207,16 +207,16 @@ perferences -> Package Settings -> Side Bar -> setting-user
 >你写的模板文件需要存放在/Packages/SublimeTmpl/templates这个目录下，如果你配置的vue文件，文件名应该为vue.tmpl，文件内容就是新建vue文件的默认模板。
 
 
-###8. FileDiffs
+### 8. FileDiffs
 
 > fileDiffs 提供了对比文件对比功能，通过package control安装后，通过diff with previous 和前一个文件对比，diff with clipboard 就是和剪切板代码对比，对比后会生成一个对比之后的文件，这在拷贝代码和学习代码的时候非常有用。
 
-###9. AutoFileName
+### 9. AutoFileName
 >	AutoFileName 提供了文件路径提示功能，比如你要选择images文件夹下的一个图片，输入images/后会提示出图片列表给你选择，安装方法还是通过package control安装。在输入文件路径的时候会自动提示。
 
 
 
-###10. ColorPicker
+### 10. ColorPicker
 > ColorPicker提供了颜色面板选择的功能，写个demo啥的还是很方便的，通过package control 安装即可。commond + shift + c 会唤出调色面板
 
 
