@@ -43,7 +43,9 @@
     }
 }
 	```
+	
 	以上配置了hkhtml这个代码块，只要在sublime中输入hkhtml然后按tab键，就会自动生成后面的代码，效果如下：
+	
 	
 	```
 	<!DOCTYPE html>
