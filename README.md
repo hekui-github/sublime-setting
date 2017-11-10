@@ -1,11 +1,11 @@
 # sublime-setting
 ### 工欲善其事必先利其器(配置sublime前端开发环境)
 
-##下载:
+## 下载:
 直接到官网下载安装sublime
 [官网直达](http://www.sublimetext.com/)
 
-##安装插件
+## 安装插件
 新版的sublime已经默认安装了package control，我们可以通过package control 安装适合自己的插件。如果没有安装package control，直接按command + shift + p 唤出命令列表，(windows用户把command键改为crtl键)输入install，点击install package control，耐心等待安装好package control会有弹框提示。
 ### 以下三步为安装插件的方法：
 
@@ -30,19 +30,20 @@
 	
 	```
 	{
-    "snippets": {
-        "html": {
-        		"snippets": {
-                "hkhtml": "<!DOCTYPE html>\n<html>\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <title>todo-title</title>\n    <!-- 使用chrome和最新版ie渲染 -->\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n    <!-- SEO页面关键词 -->\n    <meta name=\"keywords\" content=\"todo-content\" />\n    <!-- SEO页面描述 -->\n    <meta name=\"description\" content=\"todo-des\" />\n    <!-- 作者 -->\n    <meta name=\"author\" content=\"hekui\" />\n    <!-- 图标 -->\n    <link rel=\"shortcut icon\" type=\"image/ico\" href=\"/todo.ico\" />\n     <!-- 移动端 -->\n     <!--     <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\" /> -->\n\n    <!-- 引入js-cdn,修改vue可引入其它库(cdn地址类式) -->\n    <script src=\"https://unpkg.com/vue\"></script>\n    <!-- 样式重置 -->\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.bootcss.com/meyer-reset/2.0/reset.min.css\">\n</head>\n<body>\n</body>\n</html>"
-        		},
-            "abbreviations": {
-
-
-            }
-        }
-    }
-}
+	    "snippets": {
+	        "html": {
+	        		"snippets": {
+	                "hkhtml": "<!DOCTYPE html>\n<html>\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <title>todo-title</title>\n    <!-- 使用chrome和最新版ie渲染 -->\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n    <!-- SEO页面关键词 -->\n    <meta name=\"keywords\" content=\"todo-content\" />\n    <!-- SEO页面描述 -->\n    <meta name=\"description\" content=\"todo-des\" />\n    <!-- 作者 -->\n    <meta name=\"author\" content=\"hekui\" />\n    <!-- 图标 -->\n    <link rel=\"shortcut icon\" type=\"image/ico\" href=\"/todo.ico\" />\n     <!-- 移动端 -->\n     <!--     <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\" /> -->\n\n    <!-- 引入js-cdn,修改vue可引入其它库(cdn地址类式) -->\n    <script src=\"https://unpkg.com/vue\"></script>\n    <!-- 样式重置 -->\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.bootcss.com/meyer-reset/2.0/reset.min.css\">\n</head>\n<body>\n</body>\n</html>"
+	        		},
+	            "abbreviations": {
+	
+	
+	            }
+	        }
+	    }
+	}
 	```
+	
 	
 	以上配置了hkhtml这个代码块，只要在sublime中输入hkhtml然后按tab键，就会自动生成后面的代码，效果如下：
 	
@@ -77,6 +78,7 @@
 	
 	</html>
 	```
+	
 	你可以把经常使用的代码设置成代码块，然后用快捷键来代替，这对于平时写个小demo或者写个练手项目还是很方便的，我会维护一个全面的常用代码块，需要请关注本文[github地址](https://github.com/hekui-github/sublime-setting)
 	
 * 	除了可以自定义代码片段，emmet还自带了代码片段功能，Emmet提供了很多快捷生成代码的规则，个人觉得只需要记住最常用的几个就够了，例如：
@@ -223,7 +225,7 @@ perferences -> Package Settings -> Side Bar -> setting-user
 
 
 
-##总结
+## 总结
 
 > 一共凑了十个插件，应该来说都是通用的并且可以大大提高生产效率的插件，当然你还可以安装一些个性化的插件，比如你以vue作为技术栈就可能需要安装vue相关的插件，用sass写模块化css就需要安装sass bulid插件。
 > 
