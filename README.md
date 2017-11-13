@@ -221,7 +221,8 @@ perferences -> Package Settings -> Side Bar -> setting-user
 ### 10. ColorPicker
 > ColorPicker提供了颜色面板选择的功能，写个demo啥的还是很方便的，通过package control 安装即可。commond + shift + c 会唤出调色面板
 
-
+### 11.Autoprefixer
+> Autoprefixer可以帮你加上css3前缀，减少工作量，直接通过package control安装即可。如果你使用构建工具，其实可以不使用它哦。
 
 
 
